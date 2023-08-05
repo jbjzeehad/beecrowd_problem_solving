@@ -1,7 +1,7 @@
 # @Jbj Zeehad
 
-name=input()
-salary=float(input())
-sale_pr=float(input())
-total=format(((sale_pr*0.15)+salary),"0.2f")
-print("TOTAL = R$ "+total)
+sellers_name = input()
+fixed_salary = float(input())
+sales_per_month = float(input())
+total = format(((sales_per_month * 0.15) + fixed_salary), "0.2f")
+print("TOTAL = R$ " + str(total))
